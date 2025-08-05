@@ -1,0 +1,21 @@
+class Practice06_05 {
+    public static void main(String[] args) {
+        int a;
+        a = 7 + 6;
+
+        int b;
+        b = 15 - 4;
+
+        System.out.println("a = " + a + ",b = " + b);
+
+        a++;
+        b--;
+
+        System.out.println("a = " + a + ",b = " + b);
+
+        a %= 3;
+        b *= 5;
+
+        System.out.println("a = " + a + ",b = " + b);
+    }
+}
